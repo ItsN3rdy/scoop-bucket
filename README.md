@@ -11,6 +11,7 @@ app's GitHub releases every 4 hours and commits updated manifests.
 | --- | --- |
 | `switch-frame-tap` | [TomasUribe/switch-frame-tap](https://github.com/TomasUribe/switch-frame-tap) (Windows viewer) |
 | `orbspoofer` | [ZavalaSebas/OrbSpoofer](https://github.com/ZavalaSebas/OrbSpoofer) |
+| `quiver-launcher` | [tgeorgiadis/quiver-launcher](https://github.com/tgeorgiadis/quiver-launcher) |
 
 ## Use
 
