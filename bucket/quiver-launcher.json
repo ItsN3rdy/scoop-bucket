@@ -1,0 +1,33 @@
+{
+    "version": "3.5.1",
+    "description": "Launcher for downloading, installing and running apps from GitHub and GitLab releases.",
+    "homepage": "https://github.com/tgeorgiadis/quiver-launcher",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/tgeorgiadis/quiver-launcher/blob/main/LICENSE"
+    },
+    "notes": "Quiver can update itself. Prefer updating it through Scoop so the installed version stays in sync.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tgeorgiadis/quiver-launcher/releases/download/v3.5.1/QuiverLauncher-win-Portable.zip",
+            "hash": "a19bf3abcfa044acea7bbea80088da02cfe2453c3dd6f8da038912d7a7ede6ef"
+        }
+    },
+    "bin": "QuiverLauncher.exe",
+    "shortcuts": [
+        [
+            "QuiverLauncher.exe",
+            "Quiver Launcher"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/tgeorgiadis/quiver-launcher"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tgeorgiadis/quiver-launcher/releases/download/v$version/QuiverLauncher-win-Portable.zip"
+            }
+        }
+    }
+}
