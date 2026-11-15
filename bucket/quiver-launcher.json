@@ -6,7 +6,7 @@
         "identifier": "MIT",
         "url": "https://github.com/tgeorgiadis/quiver-launcher/blob/main/LICENSE"
     },
-    "notes": "Quiver can update itself. Prefer updating it through Scoop so the installed version stays in sync.",
+    "notes": "Quiver updates itself. Scoop only installs it; this manifest is not version-tracked.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/tgeorgiadis/quiver-launcher/releases/download/v3.5.1/QuiverLauncher-win-Portable.zip",
@@ -19,15 +19,5 @@
             "QuiverLauncher.exe",
             "Quiver Launcher"
         ]
-    ],
-    "checkver": {
-        "github": "https://github.com/tgeorgiadis/quiver-launcher"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/tgeorgiadis/quiver-launcher/releases/download/v$version/QuiverLauncher-win-Portable.zip"
-            }
-        }
-    }
+    ]
 }
